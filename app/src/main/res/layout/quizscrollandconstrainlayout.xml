@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/questionview"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundedwhite"
+        android:fontFamily="@font/aladin"
+        android:paddingLeft="2dp"
+        android:text="Question : 1/x"
+        android:textAlignment="center"
+        android:textColor="@color/bluegrey"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/quesimage"
+        app:layout_constraintEnd_toStartOf="@+id/timerclock"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+
+    <TextView
+        android:id="@+id/timerclock"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundedwhite"
+        android:fontFamily="@font/aladin"
+        android:text="00:30"
+        android:textAlignment="center"
+        android:textColor="@color/bluegrey"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/quesimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundedwhite"
+        android:text="multiline text\nhere will be the question\n"
+        android:textAlignment="center"
+        android:textColor="@color/bluegrey"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerclock"
+        app:layout_constraintVertical_bias="0.06" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/nextques"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextques"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radiobut1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radiogroup"
+            android:layout_alignLeft="@id/radiogroup"
+            android:layout_gravity="start"
+            android:background="@drawable/roundedwhite"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:text="Option 1"
+            android:textAlignment="textStart"
+            android:textColor="@color/bluegrey"
+
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radiobut2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedwhite"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:text="Option 2"
+            android:textAlignment="textStart"
+            android:textColor="@color/bluegrey"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radiobut3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedwhite"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:text="Option 3"
+            android:textAlignment="textStart"
+            android:textColor="@color/bluegrey"
+            android:textStyle="bold"
+
+            />
+
+        <RadioButton
+
+            android:id="@+id/radiobut4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedwhite"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:text="Option 4"
+            android:textAlignment="textStart"
+            android:textColor="@color/bluegrey"
+            android:textStyle="bold"
+
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/but2"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:text="Confirm!"
+        android:textAlignment="center"
+        android:textColor="@color/bluegrey"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/quesimage"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignTop="@+id/questview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="48dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
+
+</ScrollView>

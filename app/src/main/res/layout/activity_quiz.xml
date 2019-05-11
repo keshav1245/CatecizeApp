@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:id="@+id/drawer"
+    android:orientation="vertical"
+
+    >
+    <!--android:background="@drawable/grad11"-->
+
+
+    <include
+        layout="@layout/quizscrollandconstrainlayout"
+        >
+
+    </include>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu">
+
+    </android.support.design.widget.NavigationView>
+    <!--<Button-->
+        <!--android:id="@+id/test_ques"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_above="@+id/questview"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginStart="0dp"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginTop="82dp"-->
+        <!--android:layout_marginEnd="0dp"-->
+        <!--android:layout_marginRight="0dp"-->
+        <!--android:layout_marginBottom="21dp"-->
+        <!--android:background="@drawable/but2"-->
+        <!--android:paddingEnd="5dp"-->
+        <!--android:paddingRight="5dp"-->
+        <!--android:text="TEST !"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/bluegrey"-->
+        <!--android:textStyle="bold" />-->
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

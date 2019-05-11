@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionPage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grad11"
+        android:scaleType="centerCrop"
+        android:id="@+id/qbck"
+        />
+
+    <ImageView
+        android:id="@+id/qlogo"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/ccetlogo_blacktext" />
+
+    <ScrollView
+        android:id="@+id/scrv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/qlogo"
+        android:layout_marginBottom="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="1) All Questions are Compulsary !"
+                android:textColor="@color/bluegrey"
+                android:textSize="15dp"
+
+
+                android:textStyle="bold" />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="2) There will be 15 questions for 0.5 marks each."
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="3)Each Question will given 30 seconds to Solve !"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="4) Only 1 Attempt is allowed , so dont Mess It UP !"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="5) 0.5 marks are awarded for each question and there is NO NEGATIVE MARKING !"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="6) The questions in this quiz are MCQ TYPE."
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="7) There are 4 Options out of which only 1 is correct  "
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="8) Donot Close the application while attempting else you will lose your single attempt and will be awarded zero !"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="9) Use of Calculator is not Allowed "
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="10) Switching between applications while attempting will force close the application and again you will be missing the only attempt thus getting a zero"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:text="11) The questions in the quiz will test your Basics in C Programming so dint worry about the difficulty !"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="15dp"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bluegrey"
+                android:textAlignment="center"
+                android:text="ALL THE BEST"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="25dp"
+
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

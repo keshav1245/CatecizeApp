@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signinact"
+
+    >
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/grad11"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:id="@+id/grdbck"-->
+        />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:paddingLeft="13dp"
+
+        android:src="@drawable/ccetlogo_blacktext" />
+
+    <ScrollView
+        android:id="@+id/scrv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/logo"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle"
+
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Just a few details to get you started "
+                android:textColor="@color/bluegrey"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/roundedwhite"
+                android:drawableLeft="@drawable/ic_email"
+
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Enter Email "
+                android:inputType="textEmailAddress"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="16dp"
+
+                android:id="@+id/T8"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/roundedwhite"
+                android:drawableLeft="@drawable/ic_lock_icon"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Password(atleast 8 characters) "
+                android:inputType="textPassword"
+                android:paddingStart="5dp"
+                android:textSize="15dp"
+
+                android:paddingLeft="5dp"
+
+                android:id="@+id/T4"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/roundedwhite"
+                android:drawableLeft="@drawable/ic_"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Confirm Password "
+                android:inputType="textPassword"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="16dp"
+
+                android:id="@+id/T5"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColorHint="@color/bluegrey"
+                android:drawableLeft="@drawable/ic_account_circle"
+                android:hint="First Name "
+                android:drawablePadding="10dp"
+                android:background="@drawable/roundedwhite"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+
+                android:textSize="16dp"
+android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:layout_marginBottom="10dp"
+
+
+                android:id="@+id/T1"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Last Name "
+                android:drawableLeft="@drawable/ic_account_circle"
+                android:background="@drawable/roundedwhite"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawablePadding="10dp"
+                android:textSize="16dp"
+
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+
+
+                android:id="@+id/T2"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/roundedwhite"
+                android:drawableLeft="@drawable/ic_assignment"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Roll Number "
+
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="16dp"
+
+                android:id="@+id/T6"
+                />
+            <AutoCompleteTextView
+
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/roundedwhite"
+                android:drawableLeft="@drawable/ic_business_center"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Branch(CSE/MECH/ECE/CIVIL)"
+
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="16dp"
+                android:id="@+id/T7"
+                />
+
+
+            <AutoCompleteTextView
+                android:textColor="@color/bluegrey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColorHint="@color/bluegrey"
+                android:hint="Username "
+                android:background="@drawable/roundedwhite"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawableLeft="@drawable/ic_person_grey_192x192"
+                android:textSize="16dp"
+                android:drawablePadding="10dp"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/T3"
+                />
+
+
+            <Button
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/B1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textColor="@color/bluegrey"
+                android:text="SUBMIT"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:background="@drawable/but2"
+                android:layout_gravity="center"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_marginBottom="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tvB2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Already Signed-Up ? Login !"
+                android:textAlignment="center"
+                android:textColor="@color/bluegrey"
+                android:textSize="16dp"
+                android:layout_marginBottom="20dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

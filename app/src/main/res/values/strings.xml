@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QUIZ</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="subname">
+        <item>C++</item>
+        <item>DEL</item>
+        <item>CAO</item>
+    </string-array>
+    <string-array name="subresult">
+        <item>C++</item>
+        <item>DEL</item>
+        <item>CAO</item>
+    </string-array>
+</resources>

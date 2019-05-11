@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionPage2">
+
+    <!--android:background="@drawable/grad11"-->
+
+    <ImageView
+        android:id="@+id/instruclogo"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+android:layout_marginEnd="10dp"
+        android:layout_height="128dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingLeft="13dp"
+        app:srcCompat="@drawable/ccetlogo_blacktext" />
+    <android.support.v4.view.ViewPager
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/instruclogo"
+        android:id="@+id/viewpageslide"
+        android:layout_height="match_parent"
+
+
+        >
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
