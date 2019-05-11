@@ -1,0 +1,188 @@
+*{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Patrick Hand', cursive;
+}
+p,ol,ul{
+	/*font-family: 'Indie Flower', cursive;*/
+font-family: 'Kalam', cursive;
+}
+body{
+	width: 100%;
+	margin: 0;
+	background-color: black;
+}
+.header{
+	text-align: center;
+	background-color: black;
+	color: orange;
+	border: 2px solid orange;
+	border-bottom: none;
+	padding: 10px;
+	font-size: 30px;
+	width: 100%
+}
+.nbar li a{
+	display: block;
+	padding: 14px 16px;
+	color: orange;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+}
+.nbar li{
+	float: right;
+}
+
+.nbar ul{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	border: 2px solid orange;
+}
+.nbar a:hover{
+	background-color: #00A1F1;
+	color: white;
+}
+.nbar .active a{
+	background-color: orange;
+	color: black;
+}
+
+.banim{
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	border: 2px solid orange;
+	height: 70%;
+
+}
+.content{
+	padding: 100px;
+	text-align: center;
+	font-size: 100%;
+}
+.content h1{
+	font-size: 70px;
+}
+.content p{
+	font-size: 25px;
+}
+.btn{
+	background-color: #00A1F1;
+	color:white;
+	display: inline-block;
+	padding: 15px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 15px;
+}
+.btn:hover{
+	background-color: #0F7DC2;
+}
+.col-25{
+	width: 25%;
+	float: left;
+}
+.col-25 img{
+	width: 100%;
+	padding: 20px;
+}
+.col-75{
+	width: 75%;
+	float: left;
+}
+.inner-container{
+	color: white;
+	padding: 15px;
+	width: 100%;
+}
+#about_app,#about_dev{
+	border: 2px solid orange;
+	display: block;
+}
+	
+#about_app,#about_dev:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.col-60 p{
+	font-size: 20px;
+}
+.col-60{
+	width: 60%;
+	float: left;
+	color: white;
+	border-right:2px solid orange;
+}
+.col-40{
+	width: 40%;
+	float: left;
+	color: white;
+}
+.col-60 h1{
+	text-align: center;
+	font-size: 40px;
+}
+.col-60 h5{
+	text-align: center;
+	font-size: 25px;
+}
+.col-40 h1{
+	text-align: center;
+	font-size: 50px;
+}
+.col-40 ul{
+	list-style: none;
+	text-align: center;
+}
+.col-40 ul li{
+float: left;
+}
+
+.col-40 ul li img{
+	align-items: center;
+
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 3px;
+}
+.footer{
+	display: block;
+	border: 2px solid orange;
+}
+.footer .inner p{
+	margin-left: 20px;
+}
+.footer:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media only screen and (max-width: 600px){
+	.col-25,.col-75,input[type =submit]{
+		width: 100%;
+		margin-top: 0px;
+	}
+	.col-60,.col-40{
+		width: 100%;
+		float: none;
+	}
+	.nbar li{
+	float: none;
+	width: 100%;
+}
+}
+#log{
+	float: none;
+	background-color: black;	
+}

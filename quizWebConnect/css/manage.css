@@ -1,0 +1,82 @@
+.passchange{
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+.passchange h1{
+	margin-left: 10px;
+}
+.col-30{
+	width: 30%;
+	float: left;
+	margin-top: 6px;
+}
+.col-70{
+	width: 70%;
+	float: left;
+	margin-top: 6px;
+}
+.passform:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.passform{
+	padding: 10px;
+	border: 2px solid orange;
+	margin: 10px;
+	border-radius: 5px;
+}
+.userchange{
+	border: 2px solid white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+.userchange h1{
+	margin-left: 10px;
+}
+.userform:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.userform{
+	padding: 10px;
+	border: 2px solid orange;
+	margin: 10px;
+	border-radius: 5px;
+}
+input[type=password],input[type=text],input[type=int]{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+label{
+	padding: 12px 12px 12px 0;
+	/*display: block;*/
+}
+input[type = submit]{
+background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 6px;
+    float: right;
+}
+input[type = submit]:hover{
+background-color: #45a049;
+}
+@media screen and(max-width: 600px){
+
+.col-30,.col-70,input[type=text],input[type=password],select,textarea,input[type=int]{
+	float: none;
+	
+	width: 100%;
+}
+}

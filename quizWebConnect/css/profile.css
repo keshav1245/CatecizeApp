@@ -1,0 +1,164 @@
+
+
+.personal{
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+}
+.personal h1{
+	text-align: center;
+	font-size: 50px;
+}
+.personal h1 span{
+	border-bottom: 2px solid white;
+}
+.personal #col-50-left{
+	border-right:2px solid orange;
+	font-size: 25px;
+	width: 45%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	/*display: block;
+	*/float: left;
+}
+.personal #col-50-right{
+	font-size: 25px;
+	width: 45%;
+	margin-left: 5%;
+	margin-bottom:5%;
+	/*display: block;
+	*/float: left;
+}
+
+.personal:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.addques{
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+}
+
+.addques h1{
+	text-align: center;
+	font-size: 50px;
+}
+.addques p{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.addques p a{
+	color: white;
+}
+.addques p a:hover{
+ color: orange;
+}
+.addques h1 span{
+	border-bottom: 2px solid white;
+
+}
+.quesform,.fbform,.dlques,.dlques2{
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+
+}
+input[type=text],select,textarea,input[type=int]{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+label{
+	padding: 12px 12px 12px 0;
+	/*display: block;*/
+}
+input[type = submit]{
+background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 6px;
+    float: right;
+}
+input[type = submit]:hover{
+background-color: #45a049;
+}
+.col-30{
+	width: 30%;
+	float: left;
+	margin-top: 6px;
+}
+.col-70{
+	width: 70%;
+	float: left;
+	margin-top: 6px;
+}
+
+.quesform:after,.fbform:after,.dlques:after,.dlques2:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.download{
+	border: 2px solid white;
+	margin: 20px;
+	color: white;
+	border-radius: 10px;
+}
+.download h1{
+	text-align: center;
+	font-size: 50px;
+}
+.download h1 span{
+	border-bottom: 2px solid white;
+}
+.download2{
+	border: 2px solid white;
+	margin: 20px;
+	color: white;
+	border-radius: 10px;
+}
+.download2 h1{
+	text-align: center;
+	font-size: 50px;
+}
+.download2 h1 span{
+	border-bottom: 2px solid white;
+}
+.feedback{
+	border: 2px solid white;
+	margin: 20px;
+	color: white;
+	border-radius: 10px;
+}
+.feedback h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+.feedback h1 span{
+	border-bottom: 2px solid white;
+}
+
+
+
+@media screen and(max-width: 600px){
+#col-50-left,#col-50-right{
+	width: 100%;
+	border-right:none;
+	float: none;
+}	
+.col-30,.col-70,input[type=text],select,textarea,input[type=int]{
+	float: none;
+	
+	width: 100%;
+}
+}

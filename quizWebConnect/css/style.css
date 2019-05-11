@@ -1,0 +1,172 @@
+*{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Patrick Hand', cursive;
+}
+p,ol,ul{
+	/*font-family: 'Indie Flower', cursive;*/
+font-family: 'Kalam', cursive;
+}
+body{
+	width: 100%;
+	margin: 0;
+	
+}
+.header{
+	text-align: center;
+	background-color: black;
+	color: orange;
+	border: 2px solid orange;
+	border-bottom: none;
+	padding: 10px;
+	font-size: 30px;
+	width: 100%
+}
+.nbar li a{
+	display: block;
+	padding: 14px 16px;
+	color: orange;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+}
+.nbar li{
+	float: right;
+}
+
+.nbar ul{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	border: 2px solid orange;
+}
+.nbar a:hover{
+	background-color: #00A1F1;
+	color: white;
+}
+
+.nbar .active a{
+	background-color: orange;
+	color: black;
+}
+.col-25{
+	width: 25%;
+	margin-top: 6px;
+	float: left;
+
+}
+.col-75{
+	width: 75%;
+	margin-top: 6px;
+	float: left;
+}
+.container{
+	border: 2px solid black;
+	padding: 20px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+input[type =text],input[type =email],input[type =password],input[type =int]{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+input[type = submit]{
+background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+}
+input[type = submit]:hover{
+background-color: #45a049;
+}
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-60 p{
+	font-size: 20px;
+}
+.col-60{
+	width: 60%;
+	float: left;
+	color: white;
+	border-right:2px solid orange;
+}
+.col-40{
+	width: 40%;
+	float: left;
+	color: white;
+}
+.col-60 h1{
+	text-align: center;
+	font-size: 40px;
+}
+.col-60 h5{
+	text-align: center;
+	font-size: 25px;
+}
+.col-40 h1{
+	text-align: center;
+	font-size: 50px;
+}
+.col-40 ul{
+	list-style: none;
+	text-align: center;
+}
+.col-40 ul li{
+float: left;
+}
+
+.col-40 ul li img{
+	align-items: center;
+
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 3px;
+}
+.footer{
+	display: block;
+	border: 2px solid orange;
+	background-color: black;
+}
+.footer .inner p{
+	margin-left: 20px;
+}
+.footer:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media screen and (max-width: 900px){
+	.col-25,.col-75,input[type =submit]{
+		width: 100%;
+		margin-top: 0px;
+	}
+	.col-60,.col-40{
+		width: 100%;
+		float: none;
+	}
+	.nbar li{
+	float: none;
+	width: 100%;
+}
+#log{
+	float: none;
+	width: 100%;
+}
+}

@@ -1,0 +1,83 @@
+.importques{
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+}
+.importques h1{
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+
+.imgquesform{
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+
+}
+.addimgques{
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+}
+.addimgques h1{
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+
+.imgquesform{
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+input[type=text],select,input[type = file],input[type=int]{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+label{
+	padding: 12px 12px 12px 0;
+	/*display: block;*/
+}
+input[type = submit]{
+background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 6px;
+    float: right;
+}
+input[type = submit]:hover{
+background-color: #45a049;
+}
+.col-30{
+	width: 30%;
+	float: left;
+	margin-top: 6px;
+}
+.col-70{
+	width: 70%;
+	float: left;
+	margin-top: 6px;
+}
+
+.importform:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.imgquesform:after{
+	display: table;
+	content: "";
+	clear: both;
+}
